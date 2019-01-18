@@ -1,0 +1,17 @@
+<div class="row createtable">
+  <div class="col-md-6 offset-md-3">
+    <h2>Add a new widget</h1>
+    <%= form_for @widget do |f| %>  
+      <div class="form-group">
+        <%= f.label :description, 'Description' %>
+        <%= f.text_field :description, class: 'form-control' %>
+      </div>
+
+      <div class="form-group">
+        <%= f.label :quantity, 'Quantity' %>
+        <%= f.text_field :quantity, class: 'form-control' %>
+      </div>
+      <%= f.submit 'Add Widget', class: 'btn btn-primary' %>
+    <% end %>
+  </div>
+</div>

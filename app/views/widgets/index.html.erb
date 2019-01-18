@@ -1,0 +1,25 @@
+
+<% if @widgets.length == 0 %>
+    <h1 class="nowidget">No Widgets Exist</h1>
+<% else %>
+    <table class="table">
+    <thead>
+    <tr>
+        <th scope="col">Description</th>
+        <th scope="col">Quantity</th>
+        <th scope="col">Remove</th>
+    </tr>
+    </thead>
+    <tbody>
+    <% @widgets.each do |w| %>
+        <tr>
+            <td><%= w.description %></td>
+            <td><%= w.quantity %></td>
+            <td>
+                <a href="/widgets/<%= w.id %>"><button type="button" class="btn btn-danger">Remove</button></a>
+            </td>
+        </tr>
+    <% end %>
+    </tbody>
+    </table>
+<% end %>

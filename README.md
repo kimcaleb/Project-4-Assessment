@@ -1,6 +1,6 @@
 
 
-# Project 2 Assessment
+# Ruby on Rails PostGreSQL Assessment
 # My finished product: https://powerful-plains-62909.herokuapp.com/
 
 

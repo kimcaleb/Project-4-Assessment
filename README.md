@@ -1,6 +1,8 @@
-<img src="https://i.imgur.com/sX12DTc.png">
+
 
 # Project 2 Assessment
+# My finished product: https://powerful-plains-62909.herokuapp.com/
+
 
 ## Introduction (By Instructor)
 
